@@ -1,4 +1,4 @@
-//Closure of a function inside an event listener
+//Closure of a function creation
 function setup(id, fn) {
   document.getElementById(id).addEventListener("click", fn);
 }
